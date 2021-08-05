@@ -10,7 +10,7 @@ if __name__ == "__main__":
             # Needed to actually package something
             packages=['measure'],
             # Needed for dependencies
-            install_requires=['numpy'],
+            install_requires=['numpy', 'scipy', 'pint'],
             # *strongly* suggested for sharing
             version='0.1',
             # The license can be anything you like
